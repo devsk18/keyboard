@@ -1,0 +1,109 @@
+body, html {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    }
+
+    .phi button:hover {
+        box-shadow: 8px 0 0 0 #252730, 8px 8px 0 0 #252730, 0 8px 0 0 #252730;
+    }
+
+    .phi button:hover {
+        transform: translate(-2px, -2px);
+    }
+
+    .phi button {
+        display: inline-block;
+        margin: 6px;
+        font-size: inherit;
+        line-height: 1.42;
+        padding: 1.2em 1.6em;
+        font-weight: normal;
+        border-width: 3px;
+        border-style: solid;
+        background: transparent;
+        border-radius: 0.4em;
+        cursor: pointer;
+        font-family: "Booster Next FY", "Avenir Next", Avenir, sans-serif;
+        user-select: none;
+        vertical-align: bottom;
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.3s, background-color 0.3s;
+        border-radius: 0.5em 0.6em/0.6em 1em 3em 1em;
+        color: #252730;
+        border-color: #252730;
+        box-shadow: 6px 0 0 0 #252730, 6px 6px 0 0 #252730, 0 6px 0 0 #252730;
+    }
+
+    .phi button:active {
+        background-color: #252730;
+        color: #E6EAEF;
+        box-shadow: 2px 0 0 0 #252730, 2px 2px 0 0 #252730, 0 2px 0 0 #252730;
+    }
+
+    /* white btn*/
+
+    .phi button:active {
+        transition-duration: 0.1s;
+        transform: translate(4px, 4px);
+    }
+
+    /* #991BE2-purple, #FF006A-red */
+
+    .extra-small button {
+        line-height: 0.42 !important;
+        padding: 0.6em .9em !important;
+    }
+
+    #spec1,
+    #spec2,
+    #spec3,
+    #spec4 {
+        color: #FF006A;
+        border-color: #FF006A;
+        box-shadow: 6px 0 0 0 #FF006A, 6px 6px 0 0 #FF006A, 0 6px 0 0 #FF006A;
+    }
+
+    #spec1:hover,
+    #spec2:hover,
+    #spec3:hover,
+    #spec4:hover {
+        box-shadow: 8px 0 0 0 #FF006A, 8px 8px 0 0 #FF006A, 0 8px 0 0 #FF006A !important;
+    }
+
+    #spec1:active,
+    #spec2:active,
+    #spec3:active,
+    #spec4:active {
+        background-color: #FF006A !important;
+        color: #E6EAEF;
+        box-shadow: 2px 0 0 0 #FF006A, 2px 2px 0 0 #FF006A, 0 2px 0 0 #FF006A !important;
+    }
+
+    .keyboard {
+        margin-top: 20px; 
+        border: 2px solid #252730; 
+        padding: 12px 10px; 
+        border-radius: 10px;
+        display: inline-block;
+    }
+
+    .card {
+        backdrop-filter: blur(16px) saturate(172%);
+        -webkit-backdrop-filter: blur(16px) saturate(172%);
+        background-color: rgba(255, 255, 255, 0.65);
+        border-radius: 12px;
+    }
+
+    body {
+        min-height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .title {
+        color: red;
+        font-family: "Booster Next FY", "Avenir Next", "Avenir", sans-serif;
+        line-height: 30px;
+        letter-spacing: 3px;
+        margin-top: 40px;
+    }
+
