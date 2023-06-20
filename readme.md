@@ -8,7 +8,9 @@ Just a Keyboard prototype using html and css with some cool click effects.
 
 ## Screenshots
 
-![App Screenshot](https://devsk18.github.io/keyboard/keyboard.jpg)
+![App Screenshot](https://devsk18.github.io/keyboard/keyboard.jpeg)
 
-![App Working](https://devsk18.github.io/keyboard/keyboard.webm)
+## Working
+
+![App Working](https://devsk18.github.io/keyboard/keyboard.gif)
 
